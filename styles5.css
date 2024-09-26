@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e3f2fd; /* Light blue background */
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #0d47a1; /* Dark blue */
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2196f3; /* Blue */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1976d2; /* Darker blue on hover */
+}
+
+#weatherInfo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.weather-card {
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.weather-card img {
+    width: 100px; /* Adjust icon size */
+    height: auto;
+}
+
+.weather-card h2 {
+    margin: 0 0 10px 0;
+    color: #0d47a1; /* Dark blue */
+}
